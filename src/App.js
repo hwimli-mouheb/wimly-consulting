@@ -20,7 +20,7 @@ function App() {
   const location = useLocation();
   return (
     <>
-   <h1>hello testing</h1>
+   
        <Navbar/>
        <AnimatePresence exitBeforeEnter>
        <Switch location={location} key={location.key}>

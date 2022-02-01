@@ -36,7 +36,7 @@ function home() {
      
       
       <Cards/>
-
+      <h1>hello testing</h1>
 <Partners/>
  <Accordion type='employer'/>
 </motion.div>
