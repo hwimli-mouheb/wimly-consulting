@@ -64,7 +64,7 @@ console.log(filename);
   console.log(firstname);
   formData.append('file',file)
   try{
- await axios.post('/upload',formData , {
+const res= await axios.post('/upload',formData , {
     headers : {
       'Content-Type': 'multipart/form-data'
     },
@@ -80,6 +80,7 @@ console.log(filename);
   }
 }).then((response)=>{
 console.log('response');
+console.log(res);
 });
   }catch(err){
   if(err.response.status === 500){
