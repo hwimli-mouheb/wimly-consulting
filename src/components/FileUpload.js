@@ -63,8 +63,8 @@ console.log(filename);
   
   console.log(firstname);
   formData.append('file',file)
-  try{/*
-const res= await axios.post('/test',formData , {
+  try{
+const res= await axios.post('https://wimly-b.herokuapp.com',formData , {
     headers : {
       'Content-Type': 'multipart/form-data'
     },
@@ -82,8 +82,8 @@ const res= await axios.post('/test',formData , {
 console.log('response');
 console.log(res);
 });
-*/
-const res= await axios.post('https://wimly-b.herokuapp.com');
+
+
 
 }catch(err){
   if(err.response.status === 500){
