@@ -63,7 +63,7 @@ console.log(filename);
   
   console.log(firstname);
   formData.append('file',file)
-  try{
+  try{/*
 const res= await axios.post('/test',formData , {
     headers : {
       'Content-Type': 'multipart/form-data'
@@ -82,7 +82,10 @@ const res= await axios.post('/test',formData , {
 console.log('response');
 console.log(res);
 });
-  }catch(err){
+*/
+let res= await axios.post('/test');
+console.log(res);
+}catch(err){
   if(err.response.status === 500){
     setMessage('there was a problem with the server');
   }else{
