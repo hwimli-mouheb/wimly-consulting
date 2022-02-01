@@ -83,7 +83,7 @@ console.log('response');
 console.log(res);
 });
 */
-const res= await axios.post('https://wimly-b.herokuapp.com');
+const res= await axios.post('https://wimly-b.herokuapp.com/upload');
 
 }catch(err){
   if(err.response.status === 500){
