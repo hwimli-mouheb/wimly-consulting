@@ -80,12 +80,9 @@ const res= await axios.post('https://wimly-b.herokuapp.com',formData , {
   }
 }).then((response)=>{
 console.log('response');
-console.log(res);
+
 });
-
-
-
-}catch(err){
+  }catch(err){
   if(err.response.status === 500){
     setMessage('there was a problem with the server');
   }else{
