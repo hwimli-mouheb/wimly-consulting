@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import  './App.css'
 
 import Navbar from './components/Navbar';
@@ -14,14 +14,9 @@ import { AnimatePresence } from 'framer-motion';
 
 
 
-    
-    const item={
-        id: 1,
-        subtitle: 'We provide you with the right person that fits your demand',
-        title: 'description'
-    }
+   
 function App() {
-  const [selectedId, setSelectedId] = useState(null);
+  
   const location = useLocation();
   return (
     <>

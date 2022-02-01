@@ -15,18 +15,19 @@ function Navbar() {
       setButton(false);
     } else {
       setButton(true);
+      console.log(button);
     }
   };
 
   useEffect(() => {
     showButton();
-  }, []);
+  },);
 
   window.addEventListener('resize', showButton);
 
   return (
     <>
-      <div className='navbar'>
+      <nav className='navbar'>
         
         <div className='navbar-container'>
           <div className='logoContainer'>
@@ -68,7 +69,7 @@ function Navbar() {
           </ul>
           
         </div>
-      </div>
+      </nav>
     </>
   );
 }

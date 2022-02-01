@@ -50,7 +50,7 @@ const onPositionChange=e=>{
 const onSubmit = async e =>{
 e.preventDefault();
 
-
+console.log(filename);
   const formData = new FormData();
   formData.append('firstname',firstname);
   formData.append('lastname',lastname);
@@ -64,7 +64,7 @@ e.preventDefault();
   console.log(firstname);
   formData.append('file',file)
   try{
-const res= await axios.post('/upload',formData , {
+ await axios.post('/upload',formData , {
     headers : {
       'Content-Type': 'multipart/form-data'
     },
