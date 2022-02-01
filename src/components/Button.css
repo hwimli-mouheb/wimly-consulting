@@ -1,0 +1,27 @@
+
+.btnn {
+ 
+  border-radius: 9px;
+  outline:12px;
+ 
+  cursor: pointer;
+  background-color: #09371f;
+
+  color: #fbfbf3;
+  border: 1px solid rgb(3, 3, 3);
+  
+  font-size: 16px;
+  transition: all 0.3s ease-out;
+}
+
+.x{
+  padding-left: 31px;
+}
+
+
+.btnn:hover {
+  transition: all 0.3s ease-out;
+  background: #09371f;
+  font-size: 18px;
+  transition: 250ms;
+}

@@ -1,0 +1,49 @@
+.tabb{
+    width: 100%;
+    
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.lefti{
+    width: 50%;
+    height: 680px;
+      float: left;
+      background: rgba(242,237,219,255);
+       padding-left: 20px;
+       padding-top: 10px;
+}
+.file{
+   padding-top: 10px;
+   padding-right: 20px;
+}
+.righti{
+    width: 50%;
+    margin-left: 50%;
+    height: 680px;
+     background: rgba(242,237,219,255);
+}
+@media screen and (max-width: 960px) {
+    .lefti{
+        width: 100%;
+        
+        float: none;
+    }
+    .righti{
+        width: 100%;
+        margin-left: 0;
+        padding-left: 20px; 
+    }
+    }
+    @media screen and (max-width: 500px) {
+        .lefti{
+            width: 100%;
+            height: 450px;
+            float: none;
+        }
+        .righti{
+            width: 100%;
+            margin-left: 0;
+            height: 500px;
+            padding-left: 20px; 
+        }
+        }

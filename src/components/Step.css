@@ -1,0 +1,135 @@
+.containerr{
+    
+    margin:auto;
+    height: 900px;
+padding-top: 50px;
+    width: 100%;
+}
+  .row-step-p {
+    display: flex;
+   
+    margin-bottom: 0;
+
+    flex-wrap: wrap;
+    height: 190px;
+    background-color:rgba(242,237,219,255) ;
+    border-bottom: 0.15rem solid #0e3d25;
+   
+  }
+  .row-step-i {
+    display: flex;
+   
+    margin-bottom: 15px;
+
+    flex-wrap: wrap;
+    height: 190px;
+background-color: #fbfbf3;
+    border-bottom: 0.15rem solid #0e3d25;
+   
+  }
+  
+  .col {
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 1;
+    max-width: 50%;
+    
+    flex-basis: 80%;
+  
+  }
+  .col-img{
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 1;
+
+    position: relative;
+  }
+  .image{
+      position: absolute;
+      top: 20px;
+      left: 300px;
+      width: 130px;
+  }
+  .imageNumber{
+      margin-right: 7px;
+      float: left;
+      width: 40px;
+      height: 82px;
+      padding-top: 42px;
+  }
+  .stepText{
+      color: #09371f;
+      padding: 50px 30px;
+  }
+  @media screen and (max-width: 995px) {
+    .image{
+        position: absolute;
+        top: 30px;
+        left: 200px;
+        width: 100px;
+  }
+  .row-step-p {
+    display: flex;
+   
+    margin-bottom: 0;
+
+    flex-wrap: wrap;
+    height: 200px;
+    background-color:rgba(242,237,219,255) ;
+    border-bottom: 0.15rem solid #0e3d25;
+   
+  }
+  .row-step-i {
+    display: flex;
+   
+    margin-bottom: 15px;
+
+    flex-wrap: wrap;
+    height: 200px;
+background-color: #fbfbf3;
+    border-bottom: 0.15rem solid #0e3d25;
+   
+  }
+
+}
+@media screen and (max-width: 780px) {
+    .image{
+        position: absolute;
+        top: 40px;
+        left: 100px;
+        width: 100px;
+  }
+  .row-step-p {
+    display: flex;
+   
+    margin-bottom: 0;
+
+    flex-wrap: wrap;
+    height: 200px;
+    background-color:rgba(242,237,219,255) ;
+    border-bottom: 0.15rem solid #0e3d25;
+   
+  }
+  .row-step-i {
+    display: flex;
+   
+    margin-bottom: 15px;
+
+    flex-wrap: wrap;
+    height: 200px;
+background-color: #fbfbf3;
+    border-bottom: 0.15rem solid #0e3d25;
+   
+  }
+  .containerr{
+    
+    margin:auto;
+    height: 950px;
+padding-top: 50px;
+    width: 90%;
+}
+}
+ 
+ 
