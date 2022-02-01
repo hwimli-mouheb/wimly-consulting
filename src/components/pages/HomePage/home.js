@@ -1,6 +1,6 @@
-import React,{ Fragment, useState,useEffect } from 'react';
+import React,{ Fragment } from 'react';
 import { motion } from 'framer-motion';
-import { AnimatePresence } from 'framer-motion';
+
 import HeroSection from '../../HeroSection';
 import { homeObjOne } from './data';
 import Cards from '../../Cards';

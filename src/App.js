@@ -1,17 +1,17 @@
-import React, {Component, useState} from 'react';
+import React, { useState } from 'react';
 import  './App.css'
-import FileUpload from './components/FileUpload';
+
 import Navbar from './components/Navbar';
 import { Route, Switch, useLocation } from "react-router-dom";
-import Accordion from './components/Accordion';
+
 import { FooterContainer } from './containers/footer'
 import './App.css'
 import Home from './components/pages/HomePage/home';
 import Employee from './components/pages/Employee/employee';
 import Employer from './components/pages/Employer/employer';
 import Imprint from './components/pages/Imprint/imprint';
-import { AnimatePresence , motion} from 'framer-motion';
-import HeroSection from './components/HeroSection';
+import { AnimatePresence } from 'framer-motion';
+
 
 
     

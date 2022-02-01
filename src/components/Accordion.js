@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { data } from './AccordionData';
-import styled from 'styled-components';
-import { IconContext } from 'react-icons';
-import { FiPlus, FiMinus } from 'react-icons/fi';
+
 import {AiFillPlusCircle,AiFillMinusCircle} from 'react-icons/ai';
 import './Accordion.css';
 const Accordion = (props) => {
