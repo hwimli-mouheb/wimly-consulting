@@ -15,9 +15,10 @@ const Accordion = (props) => {
   }
   return (
     <>
-    <div className='wrapper'>
+    <div className={(selected ? 'wrapperSelect' : 'wrapper' )}>
       <h1 className='FAQ'>FAQ</h1>
-      <div className='accordion'>
+      <div className={(selected ? 'accordionSelect' : 'accordion' )}>
+        
         {dataSpec.map((item,i)=>(
          <div className='item' key={item.key}>
            <div className='title' onClick={()=>toggle(i)}>

@@ -7,6 +7,18 @@
     background-color: #fbfbf3;
     font-size: 2rem;
     position: relative;
+    transition: all 0.1s ease-out;
+}
+.wrapperSelect{
+    display:flex;
+    height: 800px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbfbf3;
+    font-size: 2rem;
+    position: relative;
+    transition: all 0.1s ease-out;
     
 }
 .FAQ{
@@ -21,9 +33,15 @@
 .contenttext{
     font-size: 1rem;
 }
-.accordion{
+.accordionSelect{
     width: 80%;
     padding-top: 60px;
+    transition: all 0.1s ease-out;
+}
+.accordion{
+    width: 80%;
+    padding-top: 50px;
+    transition: all 0.1s ease-out;
 }
 .item{
     background: #f0ebe1;
