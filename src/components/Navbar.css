@@ -106,7 +106,7 @@ position: absolute;
 
 
   .nav-menu.active {
-    background: #242222;
+    background: #fbfbf3;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -122,14 +122,14 @@ position: absolute;
     display: table;
     padding: 0.5rem 1rem;
 
-    color: #02130a;
+    color:#09371f;
     
     align-items: center;
   }
   
 
   .nav-links:hover {
-    background-color: #fff;
+    background-color: rgba(242,237,219,255);
     color: #050505;
     border-radius: 0;
   }
