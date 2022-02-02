@@ -13,7 +13,7 @@ Aos.init({duration: 1000})
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items' >
-          <div data-aos="fade-down-right"  className='dummy'>
+          <div data-aos="flip-right"  className='dummy'>
             <CardItem label='Strong knowledge of the African market:'>
               <ul>
                 <li className='li'>We search for the best engineers in each country.</li>
@@ -22,7 +22,7 @@ Aos.init({duration: 1000})
               </ul>
             </CardItem>
             </div>
-            <div data-aos="fade-down-left" className='dummy'>
+            <div data-aos="flip-left" className='dummy'>
             <CardItem label='A strict hiring process tailored to each client:'>
             <ul>
               <li className='li'>We offer each client a tailored search that depends on the language and skills required.</li>
@@ -33,7 +33,7 @@ Aos.init({duration: 1000})
             </div>
           </ul>
           <ul className='cards__items'>
-          <div data-aos="fade-up-right" className='dummy'>
+          <div data-aos="flip-right" className='dummy'>
             <CardItem label='Long-term vision with our clients and engineers:'>
             <ul>
             <li className='li'>We provide a contact person for each client and each engineer to deliver the best services.</li>
@@ -41,7 +41,7 @@ Aos.init({duration: 1000})
             <li className='li'>We offer a monthly bonus for our hard-working engineers depending on the satisfaction percentage of the client.</li>
             </ul></CardItem>
             </div>
-            <div data-aos="fade-up-left" className='dummy'>
+            <div data-aos="flip-left" className='dummy'>
             <CardItem label='Competitive wage and high-caliber engineers:'>
             <ul>
               <li className='li'>We match you with the perfect candidate for free.</li>

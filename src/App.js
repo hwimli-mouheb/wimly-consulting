@@ -20,7 +20,7 @@ function App() {
   const location = useLocation();
   return (
     <>
-   
+       <div className='containerrr'>
        <Navbar/>
        <AnimatePresence exitBeforeEnter>
        <Switch location={location} key={location.key}>
@@ -39,17 +39,8 @@ function App() {
        </Switch>
        </AnimatePresence>
   
-   
-  
-
-
-
-
-   
-  
-  
        <FooterContainer />
-
+</div>
 
       </>);
 }

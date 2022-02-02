@@ -21,18 +21,20 @@ function Navbar() {
 
   useEffect(() => {
     showButton();
-  },);
+    
+  },[]);
 
   window.addEventListener('resize', showButton);
 
   return (
     <>
-      <nav className='navbar'>
+     
+      <nav className='navbar'style={{position:'fixed', justifyContent: 'center',alignItems: 'center'}}>
         
         <div className='navbar-container'>
           <div className='logoContainer'>
             <Link to='/' className='logoLinkContainer' onClick={closeMobileMenu}>
-          <p></p></Link>
+         </Link>
           <img className='navbar-logo' src='uploads/images/wimlyLogo.png' alt='#' />
           </div>
           
@@ -70,6 +72,7 @@ function Navbar() {
           
         </div>
       </nav>
+      
     </>
   );
 }

@@ -10,9 +10,9 @@ function Step(props) {
     return (
       <>
 
-       <h1>{props.label}</h1>
+       
        <div class="containerr">
-          
+          <h1>{props.label}</h1>
            
            <div style={{ width:'100%', backgroundColor:'rgba(242,237,219,255)'}}>
   <div class="row-step-i">
@@ -22,7 +22,7 @@ function Step(props) {
    
     </div>
     <div class="col-img">
-    <img className='image' data-aos="fade-left" src='/uploads/images/formulaire.svg' alt='#'/>
+    <img className='image' data-aos="flip-up" src='/uploads/images/formulaire.svg' alt='#'/>
     </div>
   </div>
 
@@ -34,7 +34,7 @@ function Step(props) {
    <h5 className='stepText' data-aos="fade-right"> {props.stepTwo} </h5>
     </div>
     <div class="col-img">
-    <img className='image' data-aos="fade-left" src='/uploads/images/interview.svg' alt='#'/>
+    <img className='image' data-aos="flip-up" src='/uploads/images/interview.svg' alt='#'/>
     </div>
   </div>
 
@@ -46,7 +46,7 @@ function Step(props) {
     <h5 className='stepText' > {props.stepThree}</h5>
     </div>
     <div class="col-img">
-    <img className='image' data-aos="fade-left" src='/uploads/images/contract.svg' alt='#'/>
+    <img className='image' data-aos="flip-up" src='/uploads/images/contract.svg' alt='#'/>
     </div>
   </div>
 
@@ -59,7 +59,7 @@ function Step(props) {
       <h5 className='stepText' data-aos="fade-right"> {props.stepFour}</h5>
     </div>
     <div class="col-img">
-    <img className='image' data-aos="fade-left" src='/uploads/images/start.svg' alt='#'/>
+    <img className='image' data-aos="flip-up" src='/uploads/images/start.svg' alt='#'/>
     </div>
   </div>
   

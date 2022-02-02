@@ -1,7 +1,9 @@
 import styled from 'styled-components';
-
+import { Link } from 'react-router-dom';
 export const Container = styled.div`
   padding: 10px;
+ 
+  width:100%;
   background: rgba(242,237,219,255);
   @media (max-width: 1000px) {
     padding: 70px 30px;
@@ -34,7 +36,7 @@ export const Row = styled.div`
   }
 `;
 
-export const Link = styled.a`
+export const Linke = styled.a`
   color: #09371f;
   margin-bottom: 20px;
   font-size: 15px;
@@ -44,6 +46,8 @@ export const Link = styled.a`
       transition: 200ms ease-in;
   }
 `;
+
+
 
 export const Title = styled.p`
   font-size: 23px;

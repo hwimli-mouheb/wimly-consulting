@@ -161,6 +161,7 @@ if(isSubmitted===true){
   className="custom-file-input"
   id="customFile"
   onChange={onFileChange}
+  style={{width:'220px'}}
   required
     />
      

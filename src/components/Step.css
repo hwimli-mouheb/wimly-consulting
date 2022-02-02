@@ -1,10 +1,18 @@
 .containerr{
-    
+  position: relative;
+  height: 800px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
     margin:auto;
     height: 900px;
 padding-top: 50px;
-    width: 100%;
+background-color: #fbfbf3;
+
 }
+
   .row-step-p {
     display: flex;
    
@@ -49,7 +57,7 @@ background-color: #fbfbf3;
   .image{
       position: absolute;
       top: 20px;
-      left: 300px;
+      left: 400px;
       width: 130px;
   }
   .imageNumber{
@@ -63,6 +71,13 @@ background-color: #fbfbf3;
       color: #09371f;
       padding: 50px 30px;
   }
+  @media screen and (max-width: 1200px) {
+    .image{
+        position: absolute;
+        top: 30px;
+        left: 300px;
+        width: 130px;
+  }}
   @media screen and (max-width: 995px) {
     .image{
         position: absolute;
@@ -98,8 +113,8 @@ background-color: #fbfbf3;
     .image{
         position: absolute;
         top: 40px;
-        left: 100px;
-        width: 100px;
+        left: 90px;
+        width: 80px;
   }
   .row-step-p {
     display: flex;
@@ -125,10 +140,80 @@ background-color: #fbfbf3;
   }
   .containerr{
     
-    margin:auto;
-    height: 950px;
-padding-top: 50px;
-    width: 90%;
+  
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 50px;
+}
+}
+@media screen and (max-width: 430px) {
+  .containerr{
+    height:850px;
+  }
+  .image{
+      position: absolute;
+      top: 40px;
+      left: 30px;
+      width: 80px;
+      
+}
+.row-step-p {
+  display: flex;
+ 
+  margin-bottom: 0;
+
+  flex-wrap: wrap;
+  height: 160px;
+  background-color:rgba(242,237,219,255) ;
+  border-bottom: 0.15rem solid #0e3d25;
+ 
+}
+.row-step-i {
+  display: flex;
+ flex-wrap: wrap;
+  height: 160px;
+background-color: #fbfbf3;
+  border-bottom: 0.15rem solid #0e3d25;
+ 
+}
+
+.stepText{
+  color: #09371f;
+  padding:  35px ;
+  font-size: 15px;
+  height: 180px;
+ 
+}
+.imageNumber{
+  margin-right: 0px;
+  float: left;
+  width: 30px;
+  height: 60px;
+  padding-top: 30px;
+  align-items: center;
+}
+.col-img{
+  margin-bottom: 15px;
+  
+  padding-left: 15px;
+  flex: 1;
+  max-width: 40%;
+
+  position: relative;
+}
+.col {
+  margin-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  flex: 1;
+  max-width: 60%;
+  
+  flex-basis: 80%;
+
 }
 }
  

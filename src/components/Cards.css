@@ -1,5 +1,5 @@
 .cards {
-    padding-top: 100px;
+    padding-top: 50px;
   
     background: #fbfbf3;
   }
@@ -16,9 +16,7 @@
     margin-left: -1em; /* Also needed for space (tweak if needed) */
   }
  
-  @media screen and (max-width: 540px){
-    
-  }
+
   h1 {
     text-align: center;
     color: #09371f;
@@ -131,12 +129,55 @@ width: 97%;
     .cards__item {
       margin-bottom: 2rem;
     }
+    .cards {
+      padding-top: 20px;
+    
+      background: #fbfbf3;
+    }
   }
-  @media only screen and (max-width: 534px) {
+  @media only screen and (max-width: 564px) {
+
+  .cards__item__pic-wrap::after {
+    content: attr(data-category);
+    position: absolute;
+    bottom: 0;
+    margin-left: 10px;
+    padding: 13px 8px;
+    height: 40px;
+    max-width: calc((100%) - 60px);
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #09371f;
+    box-sizing: border-box;
+  }
   .cards__item__pic-wrap {
     position: relative;
     width: 100%;
-    padding-top: 17%;
+    padding-top: 7%;
     overflow: hidden;
     
   }}
+  @media only screen and (max-width: 454px) {
+
+    .cards__item__pic-wrap::after {
+      content: attr(data-category);
+      position: absolute;
+      bottom: 0;
+      margin-left: 10px;
+      padding: 1px 8px;
+      height: 40px;
+      max-width: calc((100%) - 60px);
+      font-size: 13px;
+      font-weight: 700;
+      color: #fff;
+      background-color: #09371f;
+      box-sizing: border-box;
+    }
+    .cards__item__pic-wrap {
+      position: relative;
+      width: 100%;
+      padding-top: 19%;
+      overflow: hidden;
+      
+    }}

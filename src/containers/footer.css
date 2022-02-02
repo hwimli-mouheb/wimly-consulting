@@ -1,0 +1,11 @@
+.footer-link{
+    color: #09371f;
+  margin-bottom: 20px;
+  font-size: 15px;
+  text-decoration: none;
+  
+}
+.footer-link:hover {
+    color: #ff9c00;
+    transition: 200ms ease-in;
+}

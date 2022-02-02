@@ -65,3 +65,12 @@
      
     }
       }
+      @media screen and (max-width: 380px) {
+        .column2{
+          
+          border-top: 0.15rem solid #0e3d25;
+          
+            border-left: 0;
+          
+        }
+      }

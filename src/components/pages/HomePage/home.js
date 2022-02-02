@@ -12,10 +12,11 @@ const containerVariants = {
     },
     visible: { 
       opacity: 1, 
-      transition: { delay: 0.5, duration: 1.2 }
+      transition: { delay: 0.5, duration: 0.7 }
     },
     exit: {
-      x: "-100vh",
+      x: "0",
+      opacity:0,
       transition: { ease: 'easeInOut' }
     }
   };
@@ -25,7 +26,7 @@ function home() {
    
   return (
     <>
-    <motion.div className="home-container"
+    <motion.div className=""
       variants={containerVariants}
       initial="hidden"
       animate="visible"

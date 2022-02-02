@@ -8,11 +8,11 @@ function Partners() {
       },[]);
   return (
   <>
-  <div style={{height : '400px', backgroundColor :'#fbfbf3',padding :'50px'}}>
+  <div style={{height : '450px', backgroundColor :'#fbfbf3',padding :'50px'}}>
      
           <h1>Our partners</h1>
 <div className="row" >
-  <div data-aos="fade-right" className="column1" >
+  <div data-aos="fade-down" className="column1" >
       <div className='partner_logo'>
       <a  href='https://www.spacetec.partners/'>
       <img  src='/uploads/images/space.png' alt='#'/>
@@ -20,7 +20,7 @@ function Partners() {
       </div>
   </div>
 
-  <div className="column2" data-aos="fade-left" style={{marginTop:'10px',display:'inline-block'}}><p className='partner_text'>They are a consultancy firm that combines years of experience with in-depth expertise in the space industry.</p></div>
+  <div className="column2" data-aos="fade-up" style={{marginTop:'10px',display:'inline-block'}}><p className='partner_text'>They are a consultancy firm that combines years of experience with in-depth expertise in the space industry.</p></div>
 </div>
 
 </div>

@@ -8,15 +8,16 @@ import Step from '../../Step'
 const containerVariants = {
     hidden: { 
       opacity: 0, 
-      x: '100vw' 
+      x: '0' 
     },
     visible: { 
       opacity: 1, 
       x: 0,
-      transition: { type: 'spring', delay: 0.5 }
+      transition: { type: 'spring', delay: 0.7 }
     },
     exit: {
-      x: "-100vh",
+      x: "0",
+      opacity:0,
       transition: { ease: 'easeInOut' }
     }
   };
