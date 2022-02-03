@@ -7,7 +7,7 @@
   justify-content: flex-start;
   align-items: center;
     margin:auto;
-    height: 900px;
+    height: 700px;
 padding-top: 50px;
 background-color: #fbfbf3;
 
@@ -141,7 +141,7 @@ background-color: #fbfbf3;
   .containerr{
     
   
-    height: 1000px;
+    height: 760px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -152,7 +152,7 @@ background-color: #fbfbf3;
 }
 @media screen and (max-width: 430px) {
   .containerr{
-    height:850px;
+    height:640px;
   }
   .image{
       position: absolute;
