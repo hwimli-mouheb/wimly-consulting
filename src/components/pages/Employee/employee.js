@@ -33,7 +33,7 @@ function employee() {
      
       <div>
         <FormEmployee/>
-      <Step label='Get your dream job in just a few clicks.' stepOne='Fill in the form.' stepTwo='Pass the interview process.' stepThree='If accepted, sign a non-binding pre-contract and let us do the work for you.' stepFour='Get in touch with the client and let the adventure start.'/>
+      <Step label='Get your dream job in just a few clicks.' stepOne='Fill in the form' stepTwo='Pass the interview process' stepThree='If accepted, sign a non-binding pre-contract and let us do the work for you' stepFour='Get in touch with the client and let the adventure start'/>
        <Accordion type='employee'/>
       </div>
   </motion.div>

@@ -53,7 +53,15 @@ function Step(props) {
 
 
 
- 
+  <div class="row-step-p">
+    <div class="col">
+    <img className='imageNumber' data-aos="fade-right" alt='#' src='/uploads/images/four.png'/>
+      <h5 className='stepText' data-aos="fade-right"> {props.stepFour}</h5>
+    </div>
+    <div class="col-img">
+    <img className='image' data-aos="flip-up" src='/uploads/images/start.svg' alt='#'/>
+    </div>
+  </div>
   
   </div>
   

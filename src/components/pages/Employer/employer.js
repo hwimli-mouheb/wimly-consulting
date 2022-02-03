@@ -28,7 +28,7 @@ function employer() {
     exit="exit"
   >
       <FormEmployer/>
-      <Step label='Get your dream team in just a few clicks.' stepOne='Fill in the form.' stepTwo='Schedule a meeting to fully understand your requirements.' stepThree='Sign a non-binding pre-contract and let us do the work for you.' stepFour='Get in touch with the selected talents and let the adventure begin.'/>
+      <Step label='Get your dream team in just a few clicks.' stepOne='Fill in the form' stepTwo='Schedule a meeting to fully understand your requirements' stepThree='Sign a non-binding pre-contract and let us do the work for you' stepFour='Get in touch with the selected talents and let the adventure begin'/>
       <Accordion type='employer'/>
   </motion.div>
      
