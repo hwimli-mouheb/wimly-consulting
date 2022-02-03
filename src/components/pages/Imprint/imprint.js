@@ -25,7 +25,7 @@ function imprint() {
     animate="visible"
     exit="exit">
       <h1>Wimly Cunsulting</h1>
-      <p style={{height:'358px'}}> <h5>Wimly Cunsulting SARL </h5> represented by Najiba Raddadi Houimli
+      <p style={{height:'508px'}}> <h5>Wimly Cunsulting SARL </h5> represented by Najiba Raddadi Houimli
 <br></br>Address: 1 Rue Amazone, Jardin Menzah 2, Ariana, Tunisie.
 <br></br>Tax registration number: 1752523/N
 <br></br>Email: contact@wimly-consulting.com
