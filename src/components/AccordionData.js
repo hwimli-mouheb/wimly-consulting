@@ -3,7 +3,7 @@
     {
         key:1,
         question: 'How much do our services cost ?',
-        answer:'The services of Wimly Consulting are free. '
+        answer:'The Talent Search is free of charge. '
     },
     {
         key:2,

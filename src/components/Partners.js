@@ -10,7 +10,7 @@ function Partners() {
   <>
   <div style={{height : '450px', backgroundColor :'#fbfbf3',padding :'50px'}}>
      
-          <h1>Our partners</h1>
+          <h1>They already trusted us</h1>
 <div className="row" >
   <div data-aos="fade-down" className="column1" >
       <div className='partner_logo'>
