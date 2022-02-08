@@ -2,7 +2,7 @@
    
     {
         key:1,
-        question: 'How much do our services cost ?',
+        question: 'How much do our services cost?',
         answer:'The Talent Search is free of charge. '
     },
     {
@@ -12,12 +12,12 @@
     },
     {
         key:3,
-        question: 'Do we have the chance to get these talents to relocate to our city ?',
+        question: 'Do we have the chance to get these talents to relocate to our city?',
         answer:'Yes, of course. If the engineer agrees to relocate, we will facilitate the process.'
     },
     {
         key:4,
-        question: 'Which positions are available at Wimly Consulting ?',
+        question: 'Which positions are available at Wimly Consulting?',
         answer:'Any engineering job that could be done remotely is available.'
     }
 ];
@@ -25,7 +25,7 @@
    
     {
         key:1,
-        question: 'How much do our services cost ?',
+        question: 'How much do our services cost?',
         answer:'The services of Wimly Consulting are free. '
     },
     {
