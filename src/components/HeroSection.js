@@ -4,13 +4,10 @@ import { Button } from './Button';
 import { Link } from 'react-router-dom';
 
 function HeroSection({
-  
   headline,
   description,
-  
   img,
   alt,
- 
 }) {
   return (
     <>

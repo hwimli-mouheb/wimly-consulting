@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect}from 'react';
 import { motion } from 'framer-motion';
 
 import FormEmployee from '../../FormEmployee';
@@ -21,7 +21,12 @@ const containerVariants = {
       transition: { ease: 'easeInOut' }
     }
   };
-function employee() {
+  
+ 
+function Employee() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <>
     <motion.div className="container order"
@@ -42,4 +47,4 @@ function employee() {
   );
 }
 
-export default employee;
+export default Employee;

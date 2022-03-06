@@ -14,9 +14,9 @@ Aos.init({duration: 1000})
         <div className='cards__wrapper'>
           <ul className='cards__items' >
           <div data-aos="flip-right"  className='dummy'>
-            <CardItem label='Strong knowledge of the African market:'>
+            <CardItem label='Strong knowledge of the Tunisian market:'>
               <ul>
-                <li className='li'>We search for the best engineers in each country.</li>
+                <li className='li'>We search for the best engineers.</li>
              <li className='li'>We know how to match the best talent for your job. </li>
               <li className='li'>We meet all the needs of our workers to help them perform at their best: laptops, access to high-speed internet, and access to coworking space.</li>
               </ul>
@@ -27,7 +27,7 @@ Aos.init({duration: 1000})
             <ul>
               <li className='li'>We offer each client a tailored search that depends on the language and skills required.
 </li>
-             <li className='li'>We offer competitive salaries to attract the best engineers in each country.</li>
+             <li className='li'>We offer competitive salaries to attract the best engineers.</li>
               <li className='li'>We follow a strict, multi-step hiring process designed to find you the best match for your job.</li>
             </ul>
             </CardItem>

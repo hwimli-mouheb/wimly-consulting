@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect}from 'react';
 import { motion } from 'framer-motion';
 import FormEmployer from '../../FormEmployer';
 import Accordion from '../../Accordion';
@@ -19,7 +19,10 @@ const containerVariants = {
     transition: { ease: 'easeInOut' }
   }
 };
-function employer() {
+function Employer() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <motion.div className="container order"
     variants={containerVariants}
@@ -36,4 +39,4 @@ function employer() {
   );
 }
 
-export default employer;
+export default Employer;
