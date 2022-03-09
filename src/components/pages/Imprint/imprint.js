@@ -30,7 +30,7 @@ function imprint() {
 <br></br>Tax registration number: 1752523/N
 <br></br>Email: wimly-consulting@gmail.com
 <br></br>Phone number: +49 176 45689565
-<br></br><a href="https://calendly.com/houimli/wimly-consulting">Schedule a meeting</a> 
+<br></br><a href="https://calendly.com/houimli/wimly-consulting" target="_blank" rel="noreferrer">Schedule a meeting</a> 
 </p>
 
     
