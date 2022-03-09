@@ -28,8 +28,8 @@ function imprint() {
       <p style={{height:'508px'}}> <h5>Wimly Consulting SARL </h5> represented by Najiba Raddadi Houimli
 <br></br>Address: 1 Rue Amazone, Jardin Menzah 2, Ariana, Tunisie.
 <br></br>Tax registration number: 1752523/N
-<br></br>Email: contact@wimly-consulting.com
-<br></br>Phone number : +216 56 252 504
+<br></br>Email: houimli@spacetec.partners
+<br></br>Phone number : +49 176 45689565
 </p>
     
     </motion.div>
