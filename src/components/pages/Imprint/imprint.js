@@ -29,8 +29,10 @@ function imprint() {
 <br></br>Address: 1 Rue Amazone, Jardin Menzah 2, Ariana, Tunisie.
 <br></br>Tax registration number: 1752523/N
 <br></br>Email: houimli@spacetec.partners
-<br></br>Phone number : +49 176 45689565
+<br></br>Phone number: +49 176 45689565
+<br></br>Schedule a meeting: <a href="https://calendly.com/houimli/wimly-consulting">https://calendly.com/houimli/wimly-consulting</a> 
 </p>
+
     
     </motion.div>
   );
